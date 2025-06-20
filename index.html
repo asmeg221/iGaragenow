@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>iGarage Lublin - Serwis iPhone</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+  <!-- Nawigacja -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">iGarage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#o-nas">O nas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#uslugi">Usługi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Nagłówek -->
+  <header id="home">
+    <div class="container">
+      <h1>iGarage - Serwis iPhone Lublin</h1>
+      <p>Profesjonalna pogwarancyjna naprawa iPhone'ów</p>
+    </div>
+  </header>
+
+  <!-- Sekcja O nas -->
+  <section id="o-nas">
+    <div class="container">
+      <h2 class="section-title">O nas</h2>
+      <p class="text-center">
+  Jesteśmy jednym z najnowocześniejszych serwisów Apple z siedzibą w Lublinie, działającym nieprzerwanie od wielu lat. <br />
+  Nasz zespół składa się z certyfikowanych techników z wieloletnim doświadczeniem w naprawach urządzeń marki Apple. <br /><br />
+  Mamy za sobą <strong>ponad 5 000 udanych napraw</strong> – od prostych wymian baterii, po skomplikowane rekonstrukcje płyt głównych. <br /><br />
+  Naszą specjalnością jest <strong>profesjonalna regeneracja szybek</strong> w telefonach, tabletach i zegarkach, która pozwala klientom <strong>zaoszczędzić nawet 50%</strong> w porównaniu do standardowej wymiany całego wyświetlacza. <br /><br />
+  Dzięki nowoczesnemu zapleczu technicznemu i indywidualnemu podejściu do każdego klienta, gwarantujemy jakość, szybkość i pełne bezpieczeństwo powierzonych urządzeń.
+</p>
+<div class="row text-center mt-5">
+  <div class="col-md-4">
+    <h2 class="counter" data-target="5000">0</h2>
+    <p>Napraw wykonanych</p>
+  </div>
+  <div class="col-md-4">
+    <h2 class="counter" data-target="50">0%</h2>
+    <p>Oszczędność przy regeneracji szybek</p>
+  </div>
+  <div class="col-md-4">
+    <h2 class="counter" data-target="12">0</h2>
+    <p>Lat doświadczenia</p>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- Sekcja Usługi -->
+<section id="uslugi" class="bg-light">
+  <div class="container">
+    <h2 class="section-title">Nasze usługi</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h4>Wymiana ekranu</h4>
+        <p>Oryginalne części i ekspresowy czas realizacji.</p>
+        <img src="img/ekran.png" alt="Wymiana ekranu" class="img-fluid mt-3">
+      </div>
+      <div class="col-md-4">
+        <h4>Naprawa płyt głównych</h4>
+        <p>Zaawansowana diagnostyka i mikrolutowanie.</p>
+        <img src="img/plyta.png" alt="Naprawa płyt głównych" class="img-fluid mt-3">
+      </div>
+      <div class="col-md-4">
+        <h4>Diagnoza i wycena</h4>
+        <p>Bezpłatna diagnoza w przypadku podjęcia naprawy.</p>
+        <img src="img/dolar.png" alt="Diagnoza i oszczędność" class="img-fluid mt-3">
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 text-center">
+  <h4>Sprawdź koszt naprawy</h4>
+  <div class="form-row justify-content-center mt-3">
+    <div class="col-md-3">
+      <select id="repairType" class="form-control">
+        <option value="">Wybierz typ naprawy</option>
+        <option value="bateria">Wymiana baterii</option>
+        <option value="ekran">Wymiana wyświetlacza</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <select id="modelType" class="form-control">
+        <option value="">Wybierz model iPhone</option>
+        <option value="14">iPhone 14 / 14 Pro</option>
+        <option value="15">iPhone 15 / 15 Pro</option>
+        <option value="16">iPhone 16 / 16 Pro</option>
+      </select>
+    </div>
+  </div>
+  <div class="mt-4">
+    <h5 id="repairPrice">Cena: —</h5>
+  </div>
+</div>
+
+</section>
+
+  <!-- Sekcja Galeria -->
+  <section id="galeria">
+    <div class="container">
+      <h2 class="section-title">Galeria</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="img/naprawa1.jpg" alt="Naprawa iPhone" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/naprawa2.jpg" alt="Diagnostyka" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/naprawa3.jpg" alt="Serwis Apple" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcja Kontakt -->
+  <section id="kontakt" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Kontakt</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Imię i nazwisko</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Wiadomość</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Stopka -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 iGarage Lublin. Wszystkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <!-- Skrypty -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

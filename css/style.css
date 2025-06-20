@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 100px 0 60px;
+  text-align: center;
+  border-bottom: 2px solid #edecec;
+  background: linear-gradient(to bottom, #67686b8a 0%, #ffffff 300px);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+nav {
+  background: #343a40;
+}
+
+nav a.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+#o-nas {
+  background: url('../img/moje-tlo.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  position: relative;
+  z-index: 1;
+  padding: 60px 20px;
+  background-attachment: fixed;
+  p {
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px black;
+}
+
+#repairPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
